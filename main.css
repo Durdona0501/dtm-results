@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.exam-heading {
+  color: green;
+  margin-left: 30px;
+}
+
+.form {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.form__input {
+  padding: 16px 0px 14px 27px;
+  width: 445px;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+}
+
+.form__input::placeholder {
+  font-weight: 700;
+  opacity: 0.5;
+}
+
+.form__btn {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 350px;
+  margin: auto;
+  padding: 15px 25px;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  color: #fbfcfe;
+  cursor: pointer;
+}
+
+.form__output-box {
+  margin-top: 20px;
+  margin-left: 30px;
+}
